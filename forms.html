@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form>
+        <label for="fname">Nome:</label><br>
+        <input type="text" id="fname" name="fname"><br>
+        <label for="lname">Email:</label><br>
+        <input type="text" id="lname" name="lname">-<label for="pwd">Password:</label><input type="password" id="pwd" name="pwd"><br><br>
+        <label for="birthday">Data de nascimento:</label>
+        <input type="date" id="birthday" name="birthday">-<label for="myfile">Foto:</label><input type="file" id="myfile" name="myfile"><br><br>
+        
+        Nacionalidade: <input list="browsers" name="browser">
+            <datalist id="browsers">
+              <option value="Brasil">
+              <option value="China">
+              <option value="Alemanha">
+              <option value="Colombia">
+              <option value="Estados unidos">
+        </datalist>
+        <input type="submit">Genero:<input type="radio" id="html" name="fav_language" value="HTML"> <label for="html">F</label> 
+        <input type="radio" id="html" name="fav_language" value="HTML"> <label for="html">M</label><br><br>
+        Linguagens que você domina:<br>
+        <input type="checkbox" id="javascript" name="javascript" value="language">
+        <label for="vehicle1"> JavaScript </label> - <input type="checkbox" id="Python" name="Python" value="language"> 
+        <label for="vehicle1"> Python </label> -
+        <input type="checkbox" id="C" name="C" value="language">
+        <label for="vehicle1">Java</label><br><br>
+        <textarea name="message" rows="10" cols="30">Por que você quer ser um programador?</textarea><br><br>
+        <input type="submit" value="Criar">
+        
+        
+
+    </form>
+</body>
+</html>
